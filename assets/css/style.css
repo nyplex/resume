@@ -44,7 +44,10 @@
     background-color: #e74c3c;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -347,6 +350,10 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+div#map {
+    min-height: 360px;
+}
+
 @media (min-width: 992px) {
     .center-form {
         padding-top: 30px;
@@ -354,5 +361,5 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
-    
+
 }
